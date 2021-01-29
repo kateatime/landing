@@ -540,10 +540,15 @@
   height: 20px;
   border-radius: 4px;
   background-color: #D3EFE3;
-  border: 0;
+  border: 2px solid transparent;
   margin-top: 10px;
   width: 160px;
   padding: 5px 10px;
+  outline: #aa5fcc;
+}
+
+.wont-walk .contacts__wrapper .form .contacts input:focus {
+  border: 2px solid #aa5fcc;
 }
 
 .wont-walk .contacts__wrapper .form .wont-walk-button {
@@ -1314,12 +1319,6 @@ div.ant-carousel-arrow-right2:hover {
     max-width: 100%;
     height: auto;
   }
-  .wont-walk .contacts__wrapper .form h1 {
-    font-size: 28px;
-  }
-  .wont-walk .contacts__wrapper .form .long {
-    width: 100%;
-  }
   .wont-walk .contacts__wrapper .form .contacts {
     z-index: 2;
     display: -webkit-box;
@@ -1337,29 +1336,29 @@ div.ant-carousel-arrow-right2:hover {
             align-items: flex-start;
     margin: 0;
     width: 100%;
+    max-width: 100%;
   }
   .wont-walk .contacts__wrapper .form .contacts p {
     margin-top: 15px;
   }
   .wont-walk .contacts__wrapper .form .contacts input {
-    height: 20px;
-    margin-top: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 30px;
     width: 100%;
-    padding: 5px 10px;
+  }
+  .wont-walk .contacts__wrapper .form h1 {
+    font-size: 28px;
+  }
+  .wont-walk .contacts__wrapper .form .long {
+    width: 100%;
   }
   .wont-walk .contacts__wrapper .form .wont-walk-button {
     width: 100%;
     height: 40px;
   }
   .horse3 {
-    display:none;
-    position: absolute;
-    height: 270px;
-    margin-top: 100px;
-    right: -35px;
-    z-index: 3;
-    -webkit-transform: scale(-1, 1);
-            transform: scale(-1, 1);
+    display: none;
   }
   .services {
     padding: 30px;
@@ -1406,3 +1405,4 @@ div.ant-carousel-arrow-right2:hover {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=style.css.map */
