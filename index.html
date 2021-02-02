@@ -134,7 +134,7 @@
                     </div>
                     <div class="contacts__phone long">
                         <p>Телефон</p>
-                        <input class="contacts-name-phone " type="tel">
+                        <input class="contacts-name-phone " type="tel" placeholder="+7(XXX) XXX-XX-XX">
                     </div>
                     <div class="contacts__email long">
                         <p>Электронная почта</p>
@@ -253,6 +253,13 @@
     
 
 <script src="script.js"></script>
-
+<script>
+    var elements = document.getElementsByClassName('contacts-name-phone');
+    for (var i = 0; i < elements.length; i++) {
+      new IMask(elements[i], {
+        mask: '+{7} (000) 000-00-00',
+      });
+    }
+    </script>
 </body>
 </html>
