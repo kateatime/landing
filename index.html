@@ -255,8 +255,8 @@
 <script src="script.js"></script>
 <script src="https://unpkg.com/imask"></script>
 <script>
-    var elements = document.getElementsByClassName('contacts-name-phone');
-    for (var i = 0; i < elements.length; i++) {
+    let elements = document.getElementsByClassName('contacts-name-phone');
+    for (let i = 0; i < elements.length; i++) {
       new IMask(elements[i], {
         mask: '+{7} (000) 000-00-00',
       });
