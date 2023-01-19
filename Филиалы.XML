@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<companies>
+    <company>
+        <company-id>1</company-id>
+        <name lang="ru">Броволог</name>
+        <address lang="ru">город Самара, ул. Калужская, 11</address>
+        <country lang="ru">Россия</country>
+        <address-add lang="ru"></address-add>
+        <phone>
+            <number>+7 (343) 375-13-99</number>
+            <type>phone</type>
+        </phone>
+        <url>http://?/</url>
+        <working-time lang="ru">ежедн. 10:00-21:00</working-time>
+        <rubric-id>7407769291</rubric-id>
+        <actualization-date>17.01.2022</actualization-date>
+        <coordinates>
+            <lon>53.216398</lon>
+            <lat>50.170626</lat>
+        </coordinates>
+    </company>
+</companies>
